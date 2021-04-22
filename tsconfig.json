@@ -10,8 +10,10 @@
         "target": "es5",
         "allowJs": true,
         "jsx": "react",
+        "esModuleInterop": true,
     },
     "include": [
-        "./src/**/*"
+        "./src/**/*",
+        "./setupTests.ts",
     ]
 }
