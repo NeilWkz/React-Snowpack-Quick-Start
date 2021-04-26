@@ -1,11 +1,11 @@
 {
     "mount": {
-        "dist": "/",
+        "build": "/",
         "src": "/"
     },
     "plugins": [
         "@snowpack/plugin-typescript",
-        ["@snowpack/plugin-sass", { "style": "compressed" }],
+        "@snowpack/plugin-sass",
         [
             "@snowpack/plugin-run-script",
             {

@@ -5,7 +5,7 @@
     "description": "An app to testdrive of snowpack and other tools config for React",
     "main": "index.js",
     "scripts": {
-        "clean": "rm dist/bundle.js",
+        "clean": "rm build/bundle.js",
         "start": "snowpack dev",
         "build": "snowpack build",
         "test": "jest",

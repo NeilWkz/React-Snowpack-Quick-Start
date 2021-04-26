@@ -165,7 +165,7 @@ ReactDOM.render(<App />, mountNode);
 ```
 // <the start of your package.json >
  "scripts": {
-    "clean": "rm dist/bundle.js",
+    "clean": "rm build/bundle.js",
     "start": "snowpack dev",
     "build": "snowpack build",
     "test": "jest"
