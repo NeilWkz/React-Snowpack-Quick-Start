@@ -2,7 +2,7 @@
     "name": "react-snowpack-quickstart",
     "version": "1.0.0",
     "repository": "https://github.com/NeilWkz/React-Snowpack-Quick-Start",
-    "description": "A quick snowpack setup for building react apps, with typescript, jest, xo-eslint and scss preconfigured",
+    "description": "A quick snowpack setup for building react apps, with typescript, jest, react-testing-library, xo-eslint and scss preconfigured",
     "main": "index.js",
     "scripts": {
         "clean": "rm build/bundle.js",
@@ -55,7 +55,6 @@
         "eslint-plugin-jest": "^24.3.6",
         "eslint-plugin-prettier": "^3.4.0",
         "eslint-watch": "^7.0.0",
-        "i": "^0.3.6",
         "jest": "^26.6.3",
         "modern-css-reset": "^1.4.0",
         "npm": "^7.10.0",
@@ -65,8 +64,6 @@
         "typescript": "^4.2.4"
     },
     "dependencies": {
-        "@apollo/client": "^3.3.15",
-        "graphql": "^15.5.0",
         "react": "^17.0.2",
         "react-dom": "^17.0.2"
     }
