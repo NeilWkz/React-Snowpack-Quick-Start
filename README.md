@@ -11,4 +11,15 @@ Start Via:
 
 `npm start`
 
+Build for production with:
+
+`npm run build`
+
+Run tests with:
+
+`npm run test`
+
+Watch tests with:
+
+`npm run jest`
 
