@@ -1,8 +1,8 @@
 {
-    "name": "react-jk-jk",
+    "name": "react-snowpack-quickstart",
     "version": "1.0.0",
-    "repository": "https://github.com/NeilWkz/react-jk-jk",
-    "description": "An app to testdrive of snowpack and other tools config for React",
+    "repository": "https://github.com/NeilWkz/React-Snowpack-Quick-Start",
+    "description": "A quick snowpack setup for building react apps, with typescript, jest, xo-eslint and scss preconfigured",
     "main": "index.js",
     "scripts": {
         "clean": "rm build/bundle.js",
@@ -11,7 +11,7 @@
         "test": "jest",
         "jest": "jest --watch"
     },
-    "author": "",
+    "author": "NeilWkz",
     "license": "ISC",
     "eslintConfig": {
         "root": true,
@@ -29,9 +29,6 @@
             "browser": true,
             "jest/globals": true
         },
-        "rules": {
-            "semi": "off"
-        }
     },
     "prettier": {
         "tabWidth": 4,
