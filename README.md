@@ -1,5 +1,5 @@
 # React SnowPack Quick Start
-A quickstart app setup with TypeScript, Jest, XO, Prettier (for my own use).
+A quickstart app setup with TypeScript, Jest, XO, Prettier (for my own use - but if it helps you please enjoy).
 
 
 This includes a SCSS port of [modern-css-reset](https://github.com/andy-piccalilli/modern-css-reset)
